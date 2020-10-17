@@ -1,22 +1,20 @@
 import React from 'react';
 import './App.css';
+import About from './components/About';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-    <header>Tracey Jackson
-        <ul>
-          <li>About Me</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-          <li>Resume</li>
-        </ul>
-    </header>
+    <>
+    <Nav></Nav>
     <main> 
-      Content
+      <About></About>
+      <Portfolio></Portfolio>
     </main>
-    <footer>
-      Github/LinkedIn info
-    </footer>
+<Footer></Footer>
+    </>
   )
 }
 
