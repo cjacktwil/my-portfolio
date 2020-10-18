@@ -21,12 +21,16 @@ function Project() {
         <div>
            {projects.map((project, i) => (
 
-           <section>
+           <section key={project.name}>
             <h2>
                 {project.name}
                 </h2>
-                <a href={project.link} target="_blank">
-                <img src={project.image} alt="{project.name} screenshot" width="250px"></img> 
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img 
+                src={project.image} 
+                alt="{project.name} screenshot" 
+                width="250px"
+                key={project.name}></img> 
             </a>
             <h3>{project.languages}</h3>
             <p>{project.description}</p>
