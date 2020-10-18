@@ -3,7 +3,8 @@ import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-import Portfolio from './components/Portfolio';
+// import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 
@@ -44,7 +45,7 @@ function App() {
      )}
      {!resumeSelected && !aboutSelected && !contactSelected ? (
        <>
-       <Portfolio></Portfolio>
+       <Project></Project>
        </>
      ) : (
        <>

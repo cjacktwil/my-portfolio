@@ -4,7 +4,7 @@ function About() {
 
     return(
 <section>
-    <h1>About Me</h1>
+    <h2>About Me</h2>
     <p>Background information about me.</p>
     <img src='#'alt='Tracey'></img>
 </section>

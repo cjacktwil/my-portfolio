@@ -18,10 +18,10 @@ function Project() {
     }
 ])
     return(
-        <div>
+        <div className={`d-flex justify-content-around p-15 `}>
            {projects.map((project, i) => (
 
-           <section key={project.name}>
+           <section key={project.name} className={`justify-content-around p-15`}>
             <h2>
                 {project.name}
                 </h2>

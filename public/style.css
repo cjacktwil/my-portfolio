@@ -1,0 +1,37 @@
+header {
+    background-color: #70566D;
+    color: #CEEDDB;
+    padding: 4px;
+};
+
+header li {
+    background-color: #CEEDDB;
+    padding: 3px;    
+}
+
+.nav-item a {
+    background-color: #CEEDDB;
+    color: #70566D;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: #70566D;
+    color: #CEEDDB;
+    padding-bottom: 15px;
+    border-radius: 0 0 10px 10px;
+}
+
+main {
+    background-color: #1C6E8C;
+    padding: 5px;
+    color: #CEEDDB;
+}
+
+footer {
+    background-color: #1C6E8C;
+    color: #CEEDDB;
+    padding: 5px;
+    align-items: center;
+}
