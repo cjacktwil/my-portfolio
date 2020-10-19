@@ -35,27 +35,30 @@ function ContactForm() {
     console.log(formState);
     return (
         <section>
-            <h1 data-testid="h1tag">Contact me</h1>
+            <h1 data-testid="h1tag">CONTACT ME</h1>
+            <div className={`form-group`}>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <div className={`form-info`}>
                     <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                    <input type="text" defaultValue={name} className={`form-control`} onBlur={handleChange} name="name" />
                 </div>
-                <div>
+                <div className={`form-info`}>
                     <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+                    <input type="email" defaultValue={email} className={`form-control`} name="email" onBlur={handleChange} />
                 </div>
-                <div>
+                <div className={`form-info`}>
                     <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
+                    <textarea name="message" defaultValue={message} className={`form-control`} rows="5" onBlur={handleChange} />
                 </div>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit" data-testid="button">Submit</button>
+                <button type="submit" className={`btn p-10`} data-testid="button">Submit</button>
             </form>
+            </div>
+            <p>Or contact me directly through <a className={`contact-method`} href="mailto:traceyjackson112@gmail.com">email</a> or <a className={`contact-method`} href="tel:6152942378">call 615-294-2378</a>.</p>
         </section>
     )
 }

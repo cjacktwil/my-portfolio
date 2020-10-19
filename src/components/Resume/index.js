@@ -4,20 +4,25 @@ function Resume() {
 
     return(
         <section>
-            <h2>My Resume</h2>
-            <h3>Key Accomplishments</h3>
+            <h2>MY RESUME</h2>
+            <h3>Front-end Proficiencies</h3>
             <ul>
-                <li>Accomplishment 1</li>
-                <li>Accomplishment 2</li>
-                <li>Accomplishment 3</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>React</li>
+                <li>Handlebars</li>
+                <li>Responsive Design</li>
             </ul>
-            <h3>Proficiencies</h3>
+            <h3>Back-end Proficiencies</h3>
             <ul>
-                <li>Proficiency 1</li>
-                <li>Proficiency 2</li>
-                <li>Proficiency 3</li>
+                <li>APIs</li>
+                <li>Express</li>
+                <li>MySQL/Sequelize</li>
+                <li>Mongoose/MongoDB</li>
             </ul>
-            <button>Download Resume</button>
+            <a href="./assets/Tracey_Jackson_CV_2020.pdf" download><button className={`btn`}>Download Resume</button></a>
         </section>
     );
 }
