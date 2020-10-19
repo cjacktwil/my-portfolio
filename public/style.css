@@ -1,12 +1,13 @@
 header {
     background-color: #70566D;
     color: #CEEDDB;
-    padding: 4px;
+    padding: 15px;
 };
 
 header li {
     background-color: #CEEDDB;
-    padding: 3px;    
+    padding: 3px;  
+    margin: 5px;  
 }
 
 .nav-item a {
@@ -14,6 +15,7 @@ header li {
     color: #70566D;
     padding: 9px;
     border-radius: 10px;
+    margin: 5px;
 }
 
 .active {
@@ -25,7 +27,7 @@ header li {
 
 main {
     background-color: #1C6E8C;
-    padding: 5px;
+    padding: 15px;
     color: #CEEDDB;
 }
 
@@ -33,5 +35,78 @@ footer {
     background-color: #1C6E8C;
     color: #CEEDDB;
     padding: 5px;
-    align-items: center;
+}
+
+footer img {
+    margin: 15px;
+}
+
+.portfolio {
+    padding-top: 10px;
+}
+
+.projects {
+    padding: 10px;
+}
+
+.project {
+    margin: 25px;
+}
+
+.project-name {
+    color: #1C6E8C;
+}
+
+.screenshot {
+    border: 7px solid #CEEDDB;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #70566D;
+    color: #CEEDDB;
+    padding: 7px;
+    border: 4px solid #CEEDDB;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.btn:hover {
+    color: #EAC8CA;
+    font-weight: bolder;
+    border: 6px solid #EAC8CA;
+}
+
+.form-info {
+    padding: 15px;
+    font-size: large;
+}
+
+.contact-method {
+    color: #CEEDDB;
+    font-weight: bolder;
+}
+
+.contact-method:hover {
+    color: #EAC8CA;
+    font-weight: bolder;
+}
+
+.my-pic {
+    border-radius: 5px;
+    border: 5px solid #70566D; 
+    background-color: #1C6E8C;
+}
+
+.pic {
+    background-color: #1C6E8C;
+}
+
+.about {
+    background-color: #1C6E8C;
+    border: 0px;  
+}
+
+.about p {
+    font-size: 20px;
 }
