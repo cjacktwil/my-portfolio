@@ -17,6 +17,13 @@ function Project() {
             image: "../assets/images/screenshots/buy-smart.png"
         },
         {
+            name: "Uncode Your Career",
+            languages: "JavaScript, React, Express, GraphQL",
+            github: "https://github.com/cjacktwil/uncode-your-career",
+            link: "https://murmuring-everglades-03231.herokuapp.com/",
+            image: "../assets/images/screenshots/uncode-career.png"
+        },
+        {
             name: "Run Buddy",
             languages: "HTML, CSS",
             github: "https://github.com/cjacktwil/run-buddy",
@@ -36,14 +43,8 @@ function Project() {
             github: "https://github.com/cjacktwil/more-tech",
             link: "https://lit-springs-36043.herokuapp.com/",
             image: "../assets/images/screenshots/more-tech.png"
-        },
-        {
-            name: "Note Taker",
-            languages: "JavaScript, HTML, CSS, Express",
-            github: "https://github.com/cjacktwil/note-taker",
-            link: "https://salty-dusk-78874.herokuapp.com",
-            image: "../assets/images/screenshots/note-taker.png"
         }
+
     ])
     return (
         <div className={`container`}>
