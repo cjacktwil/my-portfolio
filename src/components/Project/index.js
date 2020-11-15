@@ -14,7 +14,7 @@ function Project() {
             languages: "JavaScript, CSS, Handlebars, Jquery Mobile, Sequelize, MySQL2, Express",
             github: "https://github.com/Alex2055/Buysmart",
             link: "https://fast-bastion-33726.herokuapp.com/",
-            image: "../assets/images/screenshots/buy-smart.png"
+            image: "../../assets/images/screenshots/buy-smart.png"
         },
         {
             name: "Uncode Your Career",
