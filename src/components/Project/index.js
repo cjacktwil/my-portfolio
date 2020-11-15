@@ -7,7 +7,7 @@ function Project() {
             languages: "Javascript, HTML, CSS",
             github: "https://github.com/taylornyquist/spontaneous-adventurer",
             link: "https://taylornyquist.github.io/spontaneous-adventurer/",
-            image: "../assets/images/screenshots/spontaneous-adventurer.png"
+            image: "./assets/images/screenshots/spontaneous-adventurer.png"
         },
         {
             name: "Buy Smart",
@@ -21,21 +21,21 @@ function Project() {
             languages: "JavaScript, React, Express, GraphQL",
             github: "https://github.com/cjacktwil/uncode-your-career",
             link: "https://murmuring-everglades-03231.herokuapp.com/",
-            image: "../assets/images/screenshots/uncode-career.png"
+            image: "./public/assets/images/screenshots/uncode-career.png"
         },
         {
             name: "Run Buddy",
             languages: "HTML, CSS",
             github: "https://github.com/cjacktwil/run-buddy",
             link: "https://cjacktwil.github.io/run-buddy/",
-            image: "../assets/images/screenshots/run-buddy.png"
+            image: "../../assets/images/screenshots/run-buddy.png"
         },
         {
             name: "Budget Tracker",
             languages: "JavaScript, CSS, Express, Mongoose",
             github: "https://github.com/cjacktwil/budget-tracker",
             link: "https://ancient-waters-23996.herokuapp.com/",
-            image: "../assets/images/screenshots/budget-tracker.png"
+            image: "../../public/assets/images/screenshots/budget-tracker.png"
         },
         {
             name: "More Tech Blog",
