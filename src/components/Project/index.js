@@ -72,7 +72,7 @@ function Project() {
                                 <h3 className={`project-name card-title`}>
                                     {project.name}
                                 </h3>
-                                <p classname={'project-description card-text'}>
+                                <p className={'project-description card-text'}>
                                     {project.description}
                                 </p>
                                 <a href={project.github} target="_blank" rel="noopener noreferrer">
