@@ -22,7 +22,7 @@ function Resume() {
                 <li>MySQL/Sequelize</li>
                 <li>Mongoose/MongoDB</li>
             </ul>
-            <a href="./assets/Tracey_Jackson_CV_2020.pdf" download><button className={`btn`}>Download Resume</button></a>
+            <a href="https://docs.google.com/document/d/1Cw5azn0Ln2Oyhh-7Z6VD2AuC8PHwX8pCCPgx-c_-T4M/edit?usp=sharing"><button className={`btn`}>Download Resume</button></a>
         </section>
     );
 }

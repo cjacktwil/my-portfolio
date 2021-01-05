@@ -57,6 +57,10 @@ footer img {
     color: #1C6E8C;
 }
 
+.project-description {
+    color: #70566D;   
+}
+
 .screenshot {
     border: 7px solid #CEEDDB;
     border-radius: 5px;

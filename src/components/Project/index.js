@@ -4,6 +4,7 @@ function Project() {
     const [projects] = useState([
         {
             name: "Spontaneous Adventurer",
+            description: "A must-have guide for last-minute excursions, the Spontaneous Adventurer pulls data from multiple public APIs to display helpful information when planning a trip.",
             languages: "Javascript, HTML, CSS",
             github: "https://github.com/taylornyquist/spontaneous-adventurer",
             link: "https://taylornyquist.github.io/spontaneous-adventurer/",
@@ -11,6 +12,7 @@ function Project() {
         },
         {
             name: "Buy Smart",
+            description: "BuySmart keeps essential shopping information at your fingertips. Record information about the items that you buy most, including location, size, price and more, with this simple, mobile-optimized application.",
             languages: "JavaScript, CSS, Handlebars, Jquery Mobile, Sequelize, MySQL2, Express",
             github: "https://github.com/Alex2055/Buysmart",
             link: "https://fast-bastion-33726.herokuapp.com/",
@@ -18,6 +20,7 @@ function Project() {
         },
         {
             name: "Uncode Your Career",
+            description: "Designed specifically for web developers, Uncode Your Career allows you to filter current open coding positions by location and description, save jobs of interest, and track your application status.",
             languages: "JavaScript, React, Express, GraphQL",
             github: "https://github.com/cjacktwil/uncode-your-career",
             link: "https://murmuring-everglades-03231.herokuapp.com/",
@@ -25,6 +28,7 @@ function Project() {
         },
         {
             name: "Run Buddy",
+            description: "This mobile-responsive website promotes a fictional fitness services company, featuring CSS styling, tables, and a contact form.",
             languages: "HTML, CSS",
             github: "https://github.com/cjacktwil/run-buddy",
             link: "https://cjacktwil.github.io/run-buddy/",
@@ -32,6 +36,7 @@ function Project() {
         },
         {
             name: "Budget Tracker",
+            description: "Keep track of your financial situation with this PWA that allows you to easily input debits and credits to track your budget.",
             languages: "JavaScript, CSS, Express, Mongoose",
             github: "https://github.com/cjacktwil/budget-tracker",
             link: "https://ancient-waters-23996.herokuapp.com/",
@@ -39,6 +44,7 @@ function Project() {
         },
         {
             name: "More Tech Blog",
+            description: "The More Tech Blog application is features blog functionality for tech news. Users can create an account or log in, then add content or comment on existing content. For testing, create an account using the 'Login' link or use 'testUser' with password '1234'.",
             languages: "JavaScript, Handlebars, CSS, Express, Sequelize, MySQL2",
             github: "https://github.com/cjacktwil/more-tech",
             link: "https://lit-springs-36043.herokuapp.com/",
@@ -66,6 +72,9 @@ function Project() {
                                 <h3 className={`project-name card-title`}>
                                     {project.name}
                                 </h3>
+                                <p classname={'project-description'}>
+                                    {project.description}
+                                </p>
                                 <a href={project.github} target="_blank" rel="noopener noreferrer">
                                     <img
                                         src="./assets/images/GitHub_Logo.png"
